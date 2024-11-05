@@ -1,0 +1,39 @@
+{
+  "name": "sherkety_project",
+  "root": "apps/sherkety_project",
+  "sourceRoot": "apps/sherkety_project/lib",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter run",
+        "cwd": "apps/sherkety_project"
+      }
+    },
+    "clean": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter clean",
+        "cwd": "apps/sherkety_project",
+        "parallel": false
+      }
+    },
+    "get": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "flutter pub get",
+        "cwd": "apps/sherkety_project",
+        "parallel": false
+      },
+      "run": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "flutter run",
+          "cwd": "apps/sherkety_project"
+        }
+      }
+    }
+  }
+}

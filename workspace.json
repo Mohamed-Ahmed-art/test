@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "projects": {
+    "sherkety_project": {
+      "root": "apps/sherkety_project",
+      "sourceRoot": "apps/sherkety_project/lib",
+      "projectType": "application"
+    }
+  }
+}
