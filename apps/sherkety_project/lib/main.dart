@@ -9,10 +9,7 @@ import 'generated/l10n.dart';
 
 void main() {
   runApp(const MyApp());
-
-
-
-
+  /// hiiiiiiii
 }
 
 class MyApp extends StatelessWidget {
